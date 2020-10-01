@@ -1,0 +1,336 @@
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* Обнуляюющий стиль */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+ol li,
+ul li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a,
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html,
+body {
+   font-size: 14px;
+   line-height: 1;
+   height: 100%;
+   font-family: Poppins;
+   color: #5a5a5a;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   font-family: Gilroy;
+}
+/*---------------------------------------*/
+
+.wrapper {
+}
+.container {
+   max-width: 1140px;
+   margin: 0px auto;
+}
+.header {
+   background: url("../img/men.png") 900px 220px / 330px no-repeat,
+      #fafafb url("../img/image.png") right bottom / 82% no-repeat;
+   margin: 0px 0px 100px 0px;
+}
+.top {
+   padding: 30px 0px 0px 0px;
+   margin: 0px 0px 60px 0px;
+}
+.logo {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 52px;
+   line-height: 63px;
+   color: #e1e1e1;
+   display: inline-block;
+   margin: 0px 20px 0px 0px;
+}
+.name {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   color: #5d5d5d;
+   padding: 0px 0px 0px 25px;
+   border-left: 2px solid #89afef;
+   max-width: 200px;
+   display: inline-block;
+   margin: 0px 70px 0px 0px;
+}
+.social {
+   display: inline-block;
+   max-width: 165px;
+   margin: 0px 100px 0px 0px;
+}
+.item1 {
+   display: inline-block;
+   width: 43px;
+   height: 43px;
+   background: #2dd038 url("../img/wts.png") center no-repeat;
+   border-radius: 50%;
+   box-shadow: 0px 8px 25px rgba(45, 208, 56, 0.497678);
+   margin: 0px 10px 0px 0px;
+}
+.item2 {
+   display: inline-block;
+   width: 43px;
+   height: 43px;
+   background: #7b519d url("../img/viber.png") center no-repeat;
+   border-radius: 50%;
+   box-shadow: 0px 8px 25px rgba(123, 81, 157, 0.503797);
+   margin: 0px 10px 0px 0px;
+}
+.item3 {
+   display: inline-block;
+   width: 43px;
+   height: 43px;
+   background: #2dd038 url("../img/telegram.png") center no-repeat;
+   border-radius: 50%;
+   box-shadow: 0px 8px 25px rgba(91, 186, 240, 0.5);
+}
+.contact {
+   display: inline-block;
+   margin: 0px 30px 0px 0px;
+}
+.tel {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 24px;
+   color: #333333;
+   background: url("../img/call.png") 0 center no-repeat;
+   padding: 0px 0px 0px 30px;
+}
+.mail {
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 20px;
+   margin: 0px 0px 0px 30px;
+   background: url("../img/maill.png") 0 center no-repeat;
+   padding: 0px 0px 0px 30px;
+   color: #333333;
+}
+.linkorange {
+   display: inline-block;
+   padding: 10px 20px;
+   background: linear-gradient(90deg, #f6bd60 0%, #e88952 100%);
+   box-shadow: 0px 8px 18px rgba(242, 147, 81, 0.450503);
+   border-radius: 3px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #ffffff;
+}
+.bottom {
+   margin: 0px 0px 100px 0px;
+}
+.list li {
+   display: inline-block;
+   margin: 0px 25px;
+}
+.list li:first-child {
+   margin: 0px 0px 0px 0px;
+}
+.link {
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #333333;
+}
+.main {
+   max-width: 680px;
+   padding: 0px 0px 100px 0px;
+}
+.title {
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 51px;
+   color: #333333;
+   margin: 0px 0px 30px 0px;
+}
+.text {
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   color: #333333;
+   margin: 0px 0px 50px 0px;
+}
+.text span {
+   display: inline-block;
+   font-weight: 800;
+   font-size: 24px;
+   line-height: 31px;
+
+   color: #333333;
+}
+.linkblue {
+   display: inline-block;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 21px;
+   padding: 10px 20px;
+   text-align: center;
+   color: #ffffff;
+   background: linear-gradient(90deg, #87aff1 0%, #6c80cb 100%, #6c80cb 100%);
+   box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.454846);
+   border-radius: 3px;
+}
+.broad {
+   display: inline-block;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 18px;
+   border-bottom: 1px solid #7d7d7d;
+   color: #7d7d7d;
+   margin: 0px 0px 50px 0px;
+}
+.broad span {
+   color: #86afef;
+   border-bottom: 1px solid#86afef;
+}
+.background {
+   min-height: 376px;
+   background: url("../img/blank.png") right center no-repeat, url("../img/Triangle.png") 750px 50px no-repeat,
+      url("../img/Triangle1.png") 780px 20px no-repeat, url("../img/Triangle2.png") 570px 300px no-repeat,
+      url("../img/Oval.png") 540px 320px no-repeat, url("../img/OvalB.png") 860px 30px no-repeat,
+      #fafafb url("../img/image2.png") right bottom no-repeat;
+}
+.price {
+   display: inline-block;
+   max-width: 270px;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 18px;
+   text-align: center;
+   margin: 0px 40px 0px 0px;
+   color: #333333;
+   padding: 0px 20px;
+}
+.price p {
+   margin: 0px 0px 10px 0px;
+}
+.price .ofor {
+   margin: 10px 0px 10px 0px;
+}
+.price span {
+   font-weight: 800;
+   font-size: 36px;
+   line-height: 44px;
+   text-align: center;
+   color: #87b0ee;
+   border-bottom: 2px solid;
+   padding: 0px 0px 5px 0px;
+   margin: 0px 0px 20px 0px;
+}
+.background .text {
+   margin: 66px 0px 0px 0px;
+   display: inline-block;
+   max-width: 488px;
+}
+.texts {
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 24px;
+   color: #333333;
+   margin: 40px 0px 70px 0px;
+}
+.texter {
+   margin: 20px 0px 20px 0px;
+}
+.zagolovok {
+   font-weight: bold;
+   font-size: 19px;
+   line-height: 24px;
+   color: #333333;
+   margin: 0px 0px 20px 0px;
+}
+.subtitle {
+   margin: 30px 0px 0px 0px;
+   font-weight: 800;
+   font-size: 24px;
+   line-height: 29px;
+   color: #333333;
+}
+.texts .list li {
+   display: block;
+   background: url("../img/krug.png") 0 8px no-repeat;
+   margin: 0px 0px 0px 40px;
+   padding: 0px 0px 0px 20px;
+}
+.texts .list li:first-child {
+   margin: 0px 0px 0px 40px;
+}
